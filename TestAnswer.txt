@@ -1,0 +1,118 @@
+1..
+
+import java.util.Scanner;
+public class Test1 
+{
+    public static void main(String[] args)
+{
+    int x, y, z;
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter 1st Number: ");
+    x = sc.nextInt();
+
+    System.out.println("Enter 2nd Number: ");
+    y = sc.nextInt();
+
+    sc.close();
+    z = x + y;
+    System.out.println("Sum: "+z);
+    }
+}
+
+
+2..
+
+import java.util.Scanner;
+public class Test2
+{
+    public static void main(String[] args)
+{
+
+    Scanner sc=new Scanner(System.in);
+    System.out.print("Type a number: ");
+    int num = sc.nextInt();
+    sc.close();
+    System.out.println("Printed Number: "+num);
+}
+}
+
+
+3..
+
+import java.util.Scanner;
+class Test3 
+{
+    public static void main(String[] args) 
+{
+    int a, b, c;
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter 2 Values");
+    a = sc.nextInt();
+    b = sc.nextInt();
+       
+    System.out.println("before: "+a +"  "+ b);
+    c = a;
+    a = b;
+    b = c;
+    System.out.println("after: "+a +"   " + b);
+    System.out.println( );
+    }
+}
+
+
+4..
+
+import java.util.Scanner;
+
+public class Test4 
+{
+
+    public static void main (String[] args) 
+{
+
+    Scanner sc = new Scanner(System.in);
+
+    System.out.println("enter a number: ");
+    int num = sc.nextInt();
+
+    if(num % 2 == 0)
+       System.out.println(num + " even ");
+    else
+       System.out.println(num + " odd ");
+}
+}
+
+
+6..
+
+public class Test6
+{
+	
+    public static void main(String args[])
+{
+    int x = 3;
+    int y = 41;
+    int z = 82;
+    if (x >= y && x >= z)
+    System.out.println( x + " this the max number.");
+      else if (y >= x && y >= z)
+    System.out.println( y + " this the max number.");
+      else
+    System.out.println( z + " this the max number.");
+}
+}
+
+
+7..
+
+public class Test7 
+{
+    public static void main(String[] args) 
+{
+    System.out.println("typecasting");
+    int x = 55;
+    double d = x;
+    System.out.println("int: " +x);     
+    System.out.println("double: " +d);  
+}
+}
